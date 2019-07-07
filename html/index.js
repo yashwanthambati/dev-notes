@@ -35,10 +35,12 @@ class Wizard extends Player{
 }
 const wizard1 = new Wizard('Yash',"Stack dev");
 const wizard2 = new Wizard('Raj','Bank');
+
 //reference type
 var obj0 = {value:10};
 var obj1 = obj0;
 var obj2 = {value:15}
+
 //context vs scope
 const b={
   a:function(){
