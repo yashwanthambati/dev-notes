@@ -32,3 +32,15 @@ function mergeSortArrays(array1,array2){
 }
 
 mergeSortArrays([0,1,3,45],[5,8,20])
+
+//using spread syntax (...)
+let arrays1=[1,30,3];
+let arrays2=[5,8];
+arrays1 = [...arrays1,...arrays2];
+
+//let yash=[1,20,6,5,100];
+function compare(a,b){
+  return a-b;
+}
+console.log(arrays1.sort());
+console.log(arrays1.sort(compare));
